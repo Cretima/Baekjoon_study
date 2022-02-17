@@ -9,7 +9,7 @@ for i in range(1, 1001): # ex) i = 345
         i += int(j) # i = 345 + 3, i = 348 + 4, i = 352 + 5 ---> i = 357
     generat_num.add(i) # 집합형이니 .add / not .append(리스트)
 
-self_num = sorted(origin_num - generat_num) # 셀프 넘버 = 전체 숫자 - 생성자
+self_num = sorted(origin_num - generat_num) # 셀프 넘버 = 전체 숫자 - 생성자 / sorted는 보기 편하게 정렬해줘
 
 for i in self_num: # 셀프 넘버 변수 수만큼 반복해
     print(i) # 출력!
