@@ -1,5 +1,4 @@
 # 두 수의 최대공약수와 최소공배수
-from re import T
 
 num1 = int(input("첫번째 수: "))
 num2 = int(input("두번째 수: "))
